@@ -1,0 +1,35 @@
+html { background:url(page_bg.jpg); }
+
+body { padding:10px; margin:1em auto; background-color:white; font:100% Arial, sans-serif; }
+
+body, #header, #footer { width:800px; }
+
+#header { padding:20px 0; background:url(header_footer_bg.jpg); color:white; text-align:center; }
+
+#header h1 a { color:white; text-decoration:none; }
+
+#content { width:780px; margin-top: 10px; padding:10px; overflow:auto; background:url(menu_bg.jpg) top left repeat-y; }
+
+#main { width:600px; float:right; }
+
+#navigation { width:160px; float:left; }
+
+#navigation ul { margin:0; padding:0; list-style:none; }
+
+#navigation h2 { color:white; text-decoration:none; text-align: center; }
+
+#navigation a {
+	background-image: url(buttons.png); display: block; 
+	width: 160px; height: 40px; margin-bottom: 5px; text-align: center;
+	line-height: 40px; color: #000; text-decoration: none;  font-weight: bold;
+}
+
+#navigation a:hover { background-position: left center; }
+
+#navigation a:active { background-position: left bottom; }
+
+#footer { padding:10px 0; margin-top: 10px; background:url(header_footer_bg.jpg); color:#fff; text-align:center; }
+
+#image { display:block; margin:0px auto; }
+
+#image_caption { display:block; margin:0px auto; text-align: center; font:80% Arial, sans-serif; color:Grey; width:350px; }
